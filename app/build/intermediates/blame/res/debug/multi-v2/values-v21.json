@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\values-v21\\colors.xml",
+                    "from": {
+                        "startLines": "5,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "154,56,103",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "195,98,149"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                },
+                {
+                    "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "439"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "582"
+                    }
+                }
+            ]
+        }
+    ]
+}

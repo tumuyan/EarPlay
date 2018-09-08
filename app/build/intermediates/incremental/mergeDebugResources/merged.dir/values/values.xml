@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">喇叭模式</string>
+    <string name="b">听筒模式</string>
+    <string name="backtoast">再按一次退出</string>
+    <string name="c">听筒兼容模式</string>
+    <string name="name">EarPlay</string>
+    <style name="AppTheme" parent="android:Theme.Holo.Light"/>
+</resources>

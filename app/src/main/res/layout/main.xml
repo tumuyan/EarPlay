@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:id="@+id/mainLinearLayout1">
+
+		<View
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:id="@+id/i"
+			android:layout_gravity="right"
+			android:background="#22000000"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="5dp">
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="50dp"
+				android:layout_width="match_parent"
+				android:text="@string/a"
+				android:tag="0"
+				android:onClick="onModeChange"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="50dp"
+				android:layout_width="match_parent"
+				android:text="@string/b"
+				android:tag="3"
+				android:onClick="onModeChange"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="@string/c"
+				android:tag="2"
+				android:onClick="onModeChange"/>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="贴耳息屏"
+		android:id="@+id/mainCheckBox1"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"/>
+
+	<SeekBar
+		android:layout_height="30dp"
+		android:layout_width="match_parent"
+		android:layout_above="@id/mainCheckBox1"
+		android:id="@+id/mainSeekBar1"/>
+
+</RelativeLayout>
+

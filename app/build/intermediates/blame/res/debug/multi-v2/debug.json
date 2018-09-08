@@ -1,0 +1,84 @@
+{
+    "logs": [
+        {
+            "outputFile": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,6,9,7,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "98,133,210,168,56",
+                        "endColumns": "34,34,44,36,40",
+                        "endOffsets": "128,163,250,200,92"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,90,125,170,207",
+                        "endColumns": "34,34,44,36,40",
+                        "endOffsets": "85,120,165,202,243"
+                    }
+                },
+                {
+                    "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "62",
+                        "endOffsets": "114"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "248",
+                        "endColumns": "62",
+                        "endOffsets": "306"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\values-v21\\colors.xml",
+                    "from": {
+                        "startLines": "5,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "154,56,103",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "195,98,149"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                },
+                {
+                    "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "439"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "582"
+                    }
+                }
+            ]
+        }
+    ]
+}

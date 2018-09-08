@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ring.png.flat",
+        "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\drawable\\ring.png"
+    },
+    {
+        "merged": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ear.png.flat",
+        "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\drawable\\ear.png"
+    },
+    {
+        "merged": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_i.PNG.flat",
+        "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\mipmap\\i.PNG"
+    },
+    {
+        "merged": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "A:\\Android\\EarPlay-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_speaker.png.flat",
+        "source": "A:\\Android\\EarPlay-master\\app\\src\\main\\res\\drawable\\speaker.png"
+    }
+]
