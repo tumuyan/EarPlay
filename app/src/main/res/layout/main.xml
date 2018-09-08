@@ -9,62 +9,295 @@
 		android:layout_height="wrap_content"
 		android:layout_centerInParent="true"
 		android:id="@+id/mainLinearLayout1">
+	</FrameLayout>
+<!--
 
-		<View
+	<View
 			android:layout_height="50dp"
 			android:layout_width="match_parent"
 			android:id="@+id/i"
 			android:layout_gravity="right"
-			android:background="#22000000"/>
+			android:background="#22000000"/>-->
 
 		<LinearLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:orientation="vertical"
-			android:layout_marginRight="5dp"
-			android:layout_marginLeft="5dp">
+			android:layout_marginRight="15dp"
+			android:layout_marginLeft="15dp">
 
-			<Button
-				style="?android:attr/buttonBarButtonStyle"
-				android:layout_height="50dp"
-				android:layout_width="match_parent"
-				android:text="@string/a"
-				android:tag="0"
-				android:onClick="onModeChange"/>
 
-			<Button
-				style="?android:attr/buttonBarButtonStyle"
-				android:layout_height="50dp"
-				android:layout_width="match_parent"
-				android:text="@string/b"
-				android:tag="3"
-				android:onClick="onModeChange"/>
-
-			<Button
-				style="?android:attr/buttonBarButtonStyle"
-				android:layout_height="wrap_content"
-				android:layout_width="match_parent"
-				android:text="@string/c"
-				android:tag="2"
-				android:onClick="onModeChange"/>
 
 		</LinearLayout>
 
-	</FrameLayout>
 
-	<CheckBox
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="贴耳息屏"
-		android:id="@+id/mainCheckBox1"
-		android:layout_alignParentBottom="true"
-		android:layout_centerHorizontal="true"/>
 
-	<SeekBar
-		android:layout_height="30dp"
+	<LinearLayout
 		android:layout_width="match_parent"
-		android:layout_above="@id/mainCheckBox1"
-		android:id="@+id/mainSeekBar1"/>
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+<!--		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:text="@string/a"
+			android:tag="0"
+			android:onClick="onModeChange"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:text="@string/b"
+			android:tag="3"
+			android:onClick="onModeChange"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="@string/c"
+			android:tag="2"
+			android:onClick="onModeChange"/>-->
+
+
+
+
+		<RadioGroup
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<RadioButton
+				android:id="@+id/radioButton1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:checked="true"
+				android:tag="0"
+				android:onClick="onModeChange"
+				android:text="喇叭模式" />
+
+			<RadioButton
+				android:id="@+id/radioButton2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:checked="false"
+				android:tag="3"
+				android:onClick="onModeChange"
+				android:text="听筒模式" />
+
+			<RadioButton
+				android:id="@+id/radioButton3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:tag="2"
+				android:onClick="onModeChange"
+				android:text="兼容模式" />
+
+		</RadioGroup>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/Text3"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="end"
+				android:text="音量"
+				android:textSize="16sp" />
+			<TextView
+				android:id="@+id/volueText"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="start"
+				android:text="0"
+				android:textSize="16sp" />
+
+			<SeekBar
+				android:id="@+id/mainSeekBar1"
+				android:layout_width="0dp"
+				android:layout_height="30dp"
+				android:layout_above="@id/mainCheckBox1"
+				android:layout_weight="4"
+				android:paddingLeft="10dp" />
+
+		</LinearLayout>
+
+		<View
+			android:id="@+id/divider"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_weight="0"
+			android:background="?android:attr/listDivider" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+
+			<CheckBox
+				android:id="@+id/mainCheckBox1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:layout_weight="2"
+				android:checked="false"
+				android:paddingLeft="0dp"
+				android:text="使用传感器" />
+
+			<CheckBox
+				android:id="@+id/closeEar3"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:layout_weight="2"
+				android:checked="true"
+				android:paddingLeft="0dp"
+				android:text="智能熄屏" />
+
+			<CheckBox
+				android:id="@+id/closeEar2"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:layout_weight="2"
+				android:paddingLeft="0dp"
+				android:text="贴耳兼容" />
+
+
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/Text2"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="end"
+				android:text="当前"
+				android:textSize="16sp" />
+
+			<TextView
+				android:id="@+id/closeText2"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="start"
+				android:textSize="16sp" />
+
+			<CheckBox
+				android:id="@+id/closeEar0"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:layout_weight="2"
+				android:checked="true"
+				android:paddingLeft="0dp"
+				android:text="智能听筒" />
+
+			<CheckBox
+				android:id="@+id/closeEar1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:layout_weight="2"
+				android:checked="true"
+				android:paddingLeft="0dp"
+				android:text="智能外放" />
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/Text0"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="end"
+				android:text="接近"
+				android:textSize="16sp" />
+
+			<TextView
+				android:id="@+id/closeText0"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="start"
+				android:text="4.0"
+				android:textSize="16sp" />
+
+			<SeekBar
+				android:id="@+id/closeSeekBar0"
+				android:layout_width="0dp"
+				android:layout_height="30dp"
+				android:layout_above="@id/mainCheckBox1"
+				android:layout_weight="4"
+				android:max="100"
+				android:paddingLeft="10dp"
+				android:progress="40" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/Text1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="end"
+				android:text="远离"
+				android:textSize="16sp" />
+
+			<TextView
+				android:id="@+id/closeText1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="start"
+				android:text="7.0"
+				android:textSize="16sp" />
+
+			<SeekBar
+				android:id="@+id/closeSeekBar1"
+				android:layout_width="0dp"
+				android:layout_height="30dp"
+				android:layout_above="@id/mainCheckBox1"
+				android:layout_weight="4"
+				android:max="100"
+				android:paddingLeft="10dp"
+				android:progress="70" />
+
+		</LinearLayout>
+
+	</LinearLayout>
 
 </RelativeLayout>
 

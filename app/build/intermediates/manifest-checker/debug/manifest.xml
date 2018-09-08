@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oboard.ts"
-    android:versionCode="9"
-    android:versionName="1.5" >
+    package="com.tumuyan.earplay"
+    android:versionCode="10"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -32,7 +32,7 @@
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.oboard.ts.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.tumuyan.earplay.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="name">EarPlay</string>
-
+    <string name="name">听筒播放</string>
     <string name="a">喇叭模式</string>
     <string name="b">听筒模式</string>
     <string name="c">听筒兼容模式</string>

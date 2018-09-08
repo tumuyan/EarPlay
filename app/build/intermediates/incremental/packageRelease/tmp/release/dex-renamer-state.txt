@@ -1,0 +1,4 @@
+#Sat Sep 08 17:13:56 CST 2018
+base.0=A\:\\Android\\EarPlay-master\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

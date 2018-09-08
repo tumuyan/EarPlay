@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Sep 08 17:13:56 CST 2018
+0.baseType=DIRECTORY
+0.base=A\:\\Android\\EarPlay-master\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1
